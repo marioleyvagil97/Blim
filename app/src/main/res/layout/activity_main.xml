@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/dorado"
+            android:text="Catalago"
+            android:textSize="30sp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"/>
+            <View
+                android:layout_width="260dp"
+                android:layout_height="4dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/dorado"
+                android:paddingTop="100dp" />
+        </TableRow>
+    </TableLayout>
+
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridview"
+        android:numColumns="3">
+    </GridView>
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantallaInicio"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/popcorn" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:paddingVertical="25dp"
+            android:paddingHorizontal="25dp"
+            android:textSize="20dp"
+            android:textColor="@color/blanco"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/pantallaInicio"/>
+
+        <Button
+            android:id="@+id/botonInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbutton"
+            android:gravity="center"
+            android:paddingHorizontal="75dp"
+            android:paddingVertical="15dp"
+            android:text="@string/boton"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

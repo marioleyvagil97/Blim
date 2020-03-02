@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">blim</string>
+    <string name="pantallaInicio">Welcome to popcorn factory, home of the best series and movies. Just lay down, make some popcorn and enjoy!</string>
+    <string name="boton">Get me in!</string>
+</resources>
